@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none !important;
+}
+span{
+    color: #ff0000;
+}
+#header{
+    text-align: center;
+    margin: auto;
+    background: #fff;
+}
+.header-left{
+    padding: 25px 0 0 0;
+}
+.header-left h2{
+    font-size: 35px;
+    color: #0004ff;
+}
+.header-right{
+    padding: 15px;
+}
+#menu-list li{
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    box-shadow: 2px 5px 10px #a893937c;
+}
+#menu-list li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+#blog{
+    margin: auto;
+    padding: 20px;
+    background: #ddd;
+}
+.blog-image{
+    text-align: center;
+}
+.blog-image img{
+    width: 50%;
+    border-radius: 20px;
+}
+.blog-content{
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+.blog-content h2{
+    font-size: 40px;
+    padding: 20px 0px;
+}
+
+.blog-content p{
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.8em;
+}
+.blog-content button{
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 2px 5px 10px #4d11117c;
+}
+
+#main-service{
+    background: #f7f9ff;
+}
+.service{
+    padding: 20px;
+    margin: auto;
+    width: 700px;
+}
+.service-item{
+    text-align: center;
+}
+.service-item h3{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.service-item ul, .service-item ol{
+    text-align: left;
+    padding: 20px 0;
+}
+
+#about{
+    background: #fff;
+}
+.about-us{
+    width: 700px;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+}
+.about-us h2{
+    font-size: 30px;
+}
+.about-us h3{
+    font-size: 30px;
+}
+.about-us p{
+    font-size: 18px;
+    line-height: 1.5em;
+}
+.about-us h4{
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+#contact{
+    background: #f7f9ff;
+}
+.contact-us{
+    padding: 30px;
+    width: 700px;
+    margin: auto;
+    text-align: center;
+}
+.contact-us h2{
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+.contact-us form input,
+.contact-us form textarea{
+    display: block;
+    margin: auto;
+    width: 50%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    box-shadow: 2px 5px 10px #b9b9b97c;
+}
+.contact-us button{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 2px 5px 10px #b9b9b97c;
+    cursor: pointer;
+}
+#footer{
+    padding: 30px;
+    text-align: center;
+}
