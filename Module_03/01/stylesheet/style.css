@@ -18,7 +18,6 @@ main{
 .form-control{
     width: 400px;
     background: #0000007c;
-    z-index: 99;
     padding: 50px;
     border-radius: 20px;
     color: #fff;
@@ -46,9 +45,9 @@ main{
     width: 100%;
     font-size: 15px;
     font-weight: 500;
-    padding: 10px;
+    padding: 10px 15px;
     margin: 10px 0;
-    box-sizing: content-box;
+    box-sizing: border-box;
     border: none;
     border-radius: 10px;
     box-shadow: 2px 5px 10px #ffffff75;
@@ -67,7 +66,7 @@ main{
     box-shadow: 2px 5px 15px #ffffffa6;
 }
 .form-control form button:hover{
-    background: #d8d8d875;
+    background: #ffffff75;
     color: #000;
 }
 
