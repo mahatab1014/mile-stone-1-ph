@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/61.jpg');
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-control{
+    width: 400px;
+    background: #0000007c;
+    z-index: 99;
+    padding: 50px;
+    border-radius: 20px;
+    color: #fff;
+}
+.form-control h2{
+    text-align: center;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+.form-control h2 span{
+    color: #ff0000;
+}
+
+.form-control form{
+    display: flex;
+    flex-direction: column;
+
+}
+.form-control form label{
+    cursor: pointer;
+}
+.form-control form input,
+.form-control form button{
+    color: #ffffff;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: content-box;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 5px 10px #ffffff75;
+    outline: none;
+    cursor: pointer;
+    background: transparent;
+}
+
+.form-control form button{
+    background: #00000075;
+}
+
+
+/* Hover Effect */
+.form-control form input:hover{
+    box-shadow: 2px 5px 15px #ffffffa6;
+}
+.form-control form button:hover{
+    background: #d8d8d875;
+    color: #000;
+}
+
+/* Active Effect */
+.form-control form input:active,
+.form-control form button:active{
+    box-shadow: 2px 5px 15px #7992ff;
+}
+
+.form-control form input::placeholder{
+    color: #ff0000;
+}
