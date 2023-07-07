@@ -1,0 +1,35 @@
+header{
+    padding: 45px 140px;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+header nav h2{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+    cursor: pointer;
+}
+header nav h2 span{
+    color: #FD6E0A;
+}
+header nav ul{
+    display: flex;
+    align-items: center;
+}
+header nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+header nav ul li a{
+    color: #474747;
+    font-size: 18px;
+    font-weight: 400;
+    border-bottom: 3px solid transparent;
+    transition: 400ms;
+}
+header nav ul li a:hover{
+    border-bottom: 3px solid #474747;
+    transition: 400ms;
+}

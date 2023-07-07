@@ -1,0 +1,45 @@
+section{
+    display: flex;
+    justify-content: center;
+}
+.html-form{}
+.html-form h2{
+    text-align: center;
+    padding: 50px 0;
+}
+.html-form form{}
+.html-form form label{
+    display: block;
+    width: 300px;
+}
+.html-form form label input,
+.html-form form input[type='submit'],
+.html-form form input[type='reset'],
+.html-form form label textarea{
+    background: #ddd;
+    display: block;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    outline: none;
+    border-radius: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.html-form form input[type='submit'],
+.html-form form input[type='reset']{
+    cursor: pointer;
+}
+.html-form form input[type='reset']:active,
+.html-form form input[type='submit']:active{
+    background-color: #000000;
+    color: #ddd;
+}
+.html-form form fieldset{
+    padding: 10px;
+    border-radius: 10px;
+}
+.html-form form fieldset > label > input {
+    width: 10px;
+    display: inline-block;
+}
