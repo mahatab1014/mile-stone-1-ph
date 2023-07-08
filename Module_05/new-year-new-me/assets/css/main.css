@@ -54,7 +54,8 @@
     width: 30%;
     padding-left: 30px;
 }
-.info-content h2{
+.info-content h2,
+#my-planes h2{
     padding-top: 200px;
     color: #151414;
     font-size: 40px;
@@ -85,4 +86,34 @@
     left: 0;
     color: #16D887;
     font-size: 20px;
+}
+#my-planes h2{
+    text-align: center;
+    padding: 100px 0 30px;
+}
+.plane-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.plane-info{
+    padding: 30px;
+    text-align: center;
+}
+.plane-info > .plane-img{
+    width: 58.958px;
+    height: 58.958px;
+    padding-bottom: 10px;
+}
+.plane-info > .plane-title{
+    color: #151414;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 10px 0;
+}
+.plane-info > .plane-description{
+    color: #737272;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
 }
