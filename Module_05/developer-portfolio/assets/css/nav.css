@@ -1,5 +1,8 @@
 header{
-    padding: 45px 140px;
+    width: 100%;
+    position: absolute;
+    padding: 35px 80px;
+    box-sizing: border-box;
 }
 header nav{
     display: flex;
