@@ -12,3 +12,73 @@ img{
 .main-container{
     max-width: 100%;
 }
+
+footer{
+    background-color: #151414;
+    padding: 100px 100px 30px;
+}
+footer > p{
+    text-align: center;
+    color: #F8F8F8;
+}
+#footer{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-left{
+    width: 450px;
+}
+.footer-left h2{
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+}
+.footer-left p{
+    color: #F8F8F8;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 0;
+}
+.footer-left p a{
+    color: #F8F8F8;
+}
+.footer-left ul{
+    display: flex;
+    flex-direction: row;
+}
+.footer-left ul li{
+    list-style: none;
+    padding-right: 15px;
+}
+.footer-right h2{
+    color: #F8F8F8;
+}
+.footer-right input{
+    background: transparent;
+    margin-top: 10px;
+    border: 1px solid #F8F8F8;
+    color: #fff;
+    outline: none;
+    padding: 20px 20px;
+    width: 300px;
+    display: block;
+    border-radius: 5px;
+}
+.footer-right input[value="Subscribe"]{
+    margin-top: 10px;
+    width: 110px;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    border: none;
+    background: #FFF;
+    color: #F15B22;
+    font-size: 15px;
+    font-weight: 600;
+    transition: 200ms;
+    cursor: pointer;
+}
+.footer-right input[value="Subscribe"]:hover{
+    background: #F15B22;
+    color: #fff;
+    transition: 200ms;
+}
