@@ -30,6 +30,31 @@ span{
     transition: 400ms;
     border: none;
 }
+.primary-btn-2{
+    border-radius: 5px;
+    background: #fff;
+    color: #FD6E0A;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    transition: 400ms;
+    border: 2px solid #FD6E0A;
+}
+.primary-btn-2 span{
+    color: #FD6E0A !important;
+    transition: 400ms;
+}
+.primary-btn-2:hover span{
+    color: #ffffff !important;
+    transition: 400ms;
+}
+.primary-btn-2:hover,
+.primary-btn-2:active{
+    background: #FD6E0A;
+    color: #fff;
+    transition: 400ms;
+}
 .main-container{
     width: 1140px;
     margin: 0 auto;
