@@ -1,0 +1,270 @@
+#banner{
+    background-color: #e554731a;
+    background-image: url('../images/banner/banner.png');
+    background-position: right bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    height: 100vh;
+    padding: 0 150px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+#banner h2{
+    width: 500px;
+    color:#272727;
+    font-size: 60px;
+    font-weight: 800;
+}
+#banner p{
+    width: 600px;
+    padding: 20px 0 30px;
+    color:#27272799;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+}
+#banner button{
+    border: none;
+}
+#banner button a{
+    color: #fff;
+    transition: 300ms;
+}
+#banner button:hover a{
+    color: #E55473;
+    transition: 300ms;
+}
+/* Banner Section Style Ending */
+
+
+#latest-flowers{
+    padding: 100px 0 0;
+}
+#latest-flowers .filter-item {
+    background-color: #0000000b;
+    padding: 20px;
+    border-radius: 10px;
+
+    margin-top: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#latest-flowers .filter-item span,
+#latest-flowers .filter-item select{
+    color: #808080;
+    font-weight: 600;
+}
+#latest-flowers .filter-item select{
+    background: transparent;
+    color: #272727;
+    font-size: 15px !important;
+    font-weight: 600;
+}
+#latest-flowers .filter-item form input{
+    background-color: #00000015;
+    padding: 10px 15px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+#latest-flowers .new-items{
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#latest-flowers .new-items .flower-item {
+    flex: 0 0 22%;
+    text-align: center;
+    background-color: #0000000b;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 300ms;
+    margin-bottom: 30px;
+
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#latest-flowers .new-items .flower-item:hover{
+    transform: scale(1.05);
+    transition: 300ms;
+}
+
+#latest-flowers .new-items h4.current-price {
+    padding: 16px;
+    font-size: 30px;
+    color: #E55473;  
+}
+#latest-flowers .new-items h4.current-price sup{
+    font-size: 20px;
+}
+
+#latest-flowers .new-items .flower-item img{
+    width: 80%;
+    cursor: pointer;
+}
+
+#latest-flowers .new-items .flower-item h3{
+    cursor: pointer;
+    color: #272727;
+}
+#latest-flowers .new-items .flower-item p{
+    color: #808080;
+    padding: 10px 0;
+}
+#latest-flowers .new-items .flower-item button{
+    font-size: 15px;
+    outline: none;
+    cursor: pointer;
+}
+
+/* Letter Flower Ending CSS */
+
+
+#featured-flowers{
+    padding: 100px 0;
+}
+#featured-flowers > .featured-flowers-items{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#featured-flowers .featured-item{
+    flex: 0 0 32%;
+    text-align: center;
+}
+#featured-flowers .featured-item > .item-images {
+    display: flex;
+    align-items: flex-end;
+    border-radius: 300px 300px 5px 5px;
+    box-shadow: 5px 8px 15px #00000026;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 50px 50px 0;
+    cursor: pointer;
+    transition: 300ms;
+    width: 100%;
+    height: 88%;
+    flex-wrap: nowrap;
+    align-content: flex-end;
+}
+#featured-flowers .featured-item:nth-child(2) > .item-images {
+    align-items: center;
+    background: rgba(167, 33, 98, 0.15);
+}
+#featured-flowers .featured-item:nth-child(3) > .item-images {
+    background: rgba(71, 125, 17, 0.15)
+}
+#featured-flowers .featured-item > .item-images > img{
+    width: 100%;
+}
+#featured-flowers .featured-item > .item-images:hover{
+    filter: drop-shadow(2px 0px 10px #00000060);
+    transition: 300ms;
+}
+#featured-flowers .featured-item > .flower-title{
+    color: #272727;
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+#featured-flowers #support247{
+    border-radius: 8px;
+    margin-top: 120px;
+    background: #f4f4f4;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+#featured-flowers #support247 p{
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 35px;
+    margin-top: 20px;
+}
+/* End Featured Section CSS */
+
+#hot-deal{
+    width: 100%;
+    height: 500px;
+    background-color: #fef6f8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+#hot-deal button{
+    margin-top: 20px;
+}
+#hot-deal button a{
+    color: #fff;
+    transition: 300ms;
+}
+#hot-deal button:hover a{
+    color: #E55473;
+    transition: 300ms;
+}
+/* End Hot Deal Section */
+
+#instagram{
+    padding: 100px 0;
+}
+#instagram > .insta-images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+#instagram > .insta-images > img{
+    width: 260px;
+    cursor: pointer;
+    border-radius: 10px;
+    transform: scale(0.95);
+    transition: 300ms;
+}
+#instagram > .insta-images > img:hover{
+    transform: scale(1);
+    transition: 300ms;
+}
+/* Ending Insagram CSS */
+
+#newsletter{
+    background: url('../images/banner/newsletter.png') center center;
+    background-size: cover;
+    padding: 100px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+.newsletter-form form{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.newsletter-form form input[type='email']{
+    width: 40%;
+    padding: 15px;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+.newsletter-form form input[type='submit']{
+    outline: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #fff;
+}
